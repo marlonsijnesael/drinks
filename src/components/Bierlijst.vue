@@ -139,14 +139,6 @@ export default {
         return el.drinkType.toLowerCase() === type.toLowerCase() && el.stock > 0
       })
     },
-    cardColor(index) {
-      if (index % 2 === 0) {
-        console.log('even')
-        return 0
-      }
-      console.log(1)
-      return 1
-    },
     onScroll(e) {
       if (typeof window === 'undefined') return
       const top = window.pageYOffset || e.target.scrollTop || 0
