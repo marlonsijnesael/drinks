@@ -12,7 +12,6 @@ When a beer is added to the database, it will immediately become available on th
 * Vuetify
 * Javascript
 * MongoDB
-* Express.js
 
 ### Preview of the menu card:
 
