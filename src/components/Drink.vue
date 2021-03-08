@@ -2,7 +2,7 @@
     <v-card  :color="color(hex)" outlined class="drink">
         <v-layout wrap class="">
             <v-flex xs8 >
-                <v-card-title id="beerName" style=" padding-bottom: 0;font-size: 20px !important;color:white " class="subtitle-1 font-weight-bold">
+                <v-card-title id="beerName" style=" padding-bottom: 0;font-size: 20px ;color:white " class="subtitle-1 font-weight-bold">
                     <v-icon class="drinkIcon" color="#D19C1D">mdi-bottle-wine</v-icon>
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox='0 0 400 64'>
                         <text fill="#202020"   class="svgtext" font-size="36"   x='5' y="75%" >
@@ -23,7 +23,7 @@
                 </v-card-title>
             </v-flex>
             <v-flex xs12 no-gutters style="padding-bottom: 0;">
-                <v-card-title style=" padding-bottom: 0;font-size: 20px !important;color:white " class="subtitle-1 font-weight-bold">
+                <v-card-title style=" padding-bottom: 0;font-size: 20px ;color:white " class="subtitle-1 font-weight-bold">
                     <v-icon class="drinkIcon" color="#D19C1D">mdi-glass-wine</v-icon>
 
                     <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox='0 0 400 64'>
@@ -89,7 +89,7 @@ export default {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 .svgtext {
-    color:white !important;;
+    color:white ;;
 }
 
 svg {
@@ -150,11 +150,9 @@ div .v-card::after {
 text{
     color:white;
 }
-.drink:last-child{
-}
 
 .even {
-    background-color:  !important #83C5BE;
+    background-color: #83C5BE;
 }
 
 .uneven {
